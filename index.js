@@ -2,7 +2,7 @@ function writeCards(names) {
     const messages = [];
   
     for (const name of names) {
-      const message = `Thank you, ${name}, for the wonderful surprise gift!`;
+      const message = (`Thank you, ${name}, for the wonderful surprise gift!`);
       messages.push(message);
     }
   
